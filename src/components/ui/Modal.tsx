@@ -130,6 +130,8 @@ export function Modal({
           borderColor: `${accentColor.value}80`,
           borderBottomColor: accentColor.value,
           boxShadow: getBoxShadow(),
+          backdropFilter: "blur(8px)",
+          WebkitBackdropFilter: "blur(8px)",
         }}
       >
         {variant === "3d" && (
